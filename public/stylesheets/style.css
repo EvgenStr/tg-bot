@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+/* .deleteHidden{
+  display: none;
+}
+.deleteShow{
+  display: block;
+} */
+.formedDiv{
+  border: green solid 3px;
+}
+.show{
+  display: block;
+}
+.hidden{
+  display: none;
+}
+p{
+  color: green;
+}
+.saveList::hover{
+color: rgb(56, 216, 56);
+}
+.showList::hover{
+  color: rgb(170, 204, 20);
+}

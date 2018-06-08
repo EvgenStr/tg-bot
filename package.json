@@ -1,0 +1,35 @@
+{
+  "name": "bot-front-test",
+  "version": "0.3.0",
+  "dependencies": {
+    "express": "^4.16.3",
+    "firebase-admin": "~5.12.0",
+    "firebase-functions": "^1.0.1",
+    "node-telegram-bot-api": "^0.30.0",
+    "pug": "^2.0.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git add . && git commit -m 'fix' && git push heroku master",
+    "start": "node index.js",
+    "test": "node test.js",
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "logs": "firebase functions:log"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0",
+    "eslint": "^4.12.0",
+    "eslint-plugin-promise": "^3.6.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "description": "Cloud Functions for Firebase",
+  "private": true
+}
